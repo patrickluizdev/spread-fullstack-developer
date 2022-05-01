@@ -7,6 +7,7 @@
 * ####   _Introdução ao Git e ao GitHub_
 * ####   _Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso_
 
+<<<<<<< HEAD
 * ####   **Certificados**
 ![BootCamp](https://hermes.digitalinnovation.one/certificates/cover/A945FA25.jpg)
 
@@ -17,11 +18,13 @@
 ![BootCamp](https://hermes.digitalinnovation.one/certificates/cover/A38C528D.jpg)
 
 
+=======
+>>>>>>> 37c4325aa0882f0b8fb753717d47b3fa8fd82496
 ~~~javascript
 //Comandos úteis
 //Git clone
 //Git status
 //Git add.
-//git commit - m "descrição"
-//git push origin destino
+//git commit - m
+//git push
 ~~~
