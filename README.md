@@ -1,6 +1,6 @@
 # **Spread Fullstack Developer - DIO**
 
-##     _O Bootcamp Spread Fullstack Developer é programa para desenvolvedores que querem inicializar sua jornada em desenvolvimento de software com uma base sólida em tecnologias essenciais em front-end quanto e back-end._  
+##     _O Bootcamp Spread Fullstack Developer é um programa para desenvolvedores que querem inicializar sua jornada em desenvolvimento de software com uma base sólida em tecnologias essenciais em front-end quanto e back-end._  
 
 ### **Matriz Curricular**
 * ####   _Módulo I - Conteúdo de abertura_
