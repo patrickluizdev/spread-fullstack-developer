@@ -12,6 +12,6 @@
 //Git clone
 //Git status
 //Git add.
-//git commit - m "descrição"
-//git push origin destino
+//git commit - m
+//git push
 ~~~
