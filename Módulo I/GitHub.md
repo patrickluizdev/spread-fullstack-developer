@@ -8,7 +8,7 @@
 * ####   _Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso_
 
 
-* ####   **Certificados**
+* ##   **Certificados**
 ![BootCamp](https://hermes.digitalinnovation.one/certificates/cover/A945FA25.jpg)
 
 ![BootCamp](https://hermes.digitalinnovation.one/certificates/cover/AABCE592.jpg)
