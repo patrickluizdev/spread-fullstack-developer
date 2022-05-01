@@ -4,8 +4,8 @@
 
 ### **Módulos**
 ####  _Módulo I - Conteúdo de abertura_
-####  Módulo II - HTML/CSS3
-####  Módulo III - Javascript
-####  Módulo IV - ReactJS
-####  Módulo V - Banco de Dados
-####  Módulo VI - NodeJS_
+####  _Módulo II - HTML/CSS3_
+####  _Módulo III - Javascript_
+####  _Módulo IV - ReactJS_
+####  _Módulo V - Banco de Dados_
+####  _Módulo VI - NodeJS_
