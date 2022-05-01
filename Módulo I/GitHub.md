@@ -7,8 +7,15 @@
 * ####   _Introdução ao Git e ao GitHub_
 * ####   _Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso_
 
+* ####   **Certificados**
+![BootCamp](https://hermes.digitalinnovation.one/certificates/cover/A945FA25.jpg)
 
-![BootCamp](https://hermes.digitalinnovation.one/courses/badge/88cb0f8d-dcdb-4c7d-a9c5-c56d021a23b1.png)
+![BootCamp](https://hermes.digitalinnovation.one/certificates/cover/AABCE592.jpg)
+
+![BootCamp](https://hermes.digitalinnovation.one/certificates/cover/C4500706.jpg)
+
+![BootCamp](https://hermes.digitalinnovation.one/certificates/cover/A38C528D.jpg)
+
 
 ~~~javascript
 //Comandos úteis
