@@ -11,7 +11,7 @@
 
 ### E agora podemos ver como é a estrutura básica de um arquivo HTML.
 
-### A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
+### A primeira linha do documento deve ser o < !DOCTYPE html >, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
 
 ### <html>
 
