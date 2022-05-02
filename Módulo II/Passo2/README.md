@@ -1,4 +1,3 @@
-<-- <div>
 # **HTML5**
 
 ## **Definição e estrutura básica**
@@ -134,4 +133,4 @@
 ### Adicionaremos uma lista de contatos ao rodapé da nossa página, e para isso usaremos também o elemento a que vimos anteriormente.
 
 ### Crie um elemento ul e dentro dele adicione um < li > com um elemento a, no atributo href adicione o link de alguma rede social que você mantenha e, no conteúdo da âncora coloque o nome dessa rede.
-  </div> -->
+
