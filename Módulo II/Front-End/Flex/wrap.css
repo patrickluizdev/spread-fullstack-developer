@@ -57,6 +57,7 @@
       height: 150px;
       border:  2px solid black;
       max-width: 300px;
+      
   }
   .item{
       font-size: 24px;
@@ -64,10 +65,20 @@
       text-align: center;
       width: 100px;
       line-height: 50px;
+      min-width: 100px;
+  }
+/* Cria a Quebra de Linha */
+  .wrap{
+    flex-wrap: wrap;
   }
 
-  nowrap{
+/* Impede a Quebra de Linha */
+  .nowrap{
       flex-wrap: nowrap;
+  }
+
+  .wrap-reverse{
+    flex-wrap: wrap-reverse;
   }
 
   .blue{
