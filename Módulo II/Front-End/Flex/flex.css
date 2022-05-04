@@ -50,4 +50,38 @@
     background-color: aqua;
   }
 
-  /*  flex wrap  */
+  /*  flex wrap - permite a quebra de linha dos elementos que não caiba no container  */
+
+  .flex-container1{
+      display: flex;
+      height: 150px;
+      border:  2px solid black;
+      max-width: 300px;
+  }
+  .item{
+      font-size: 24px;
+      height: 50%;
+      text-align: center;
+      width: 100px;
+      line-height: 50px;
+  }
+
+  nowrap{
+      flex-wrap: nowrap;
+  }
+
+  .blue{
+      background-color: aqua;
+  }
+
+  .green{
+      background-color: green;
+  }
+  
+  .red{
+      background-color: brown;
+  }
+
+
+
+
