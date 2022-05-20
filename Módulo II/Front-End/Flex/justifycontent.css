@@ -1,98 +1,26 @@
 
-/*  Faz os itens seguir uma ordem horizontal  */
-.flex-container{
-    margin: 0;
-    padding: 0%;
-    display: flex;
-    list-style: none;
-  }
 
-  .flex-item{
-    background: blue;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    margin: 5px;
-  }
+.container{
+  max-width: 400px;
+  border: 5px solid black;
+  margin: 0;
+  display: flex;
+  padding: 1,5
+;
+}
 
-/*  direciona os itens  */
-  .row{
-    flex-direction: row;
-  }
+.item{
+  background-color: green;
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
 
-  .row-reverse{
-    flex-direction: row-reverse;
-  }
+.flex-start{
+  justify-content: flex-start;
+}
 
-  .row-reverse li{
-    background-color: brown;
-  }
+.flex-end{
+  justify-content: flex-end;
 
-  /*  muda a orientação para vertical  */
-  .column{
-    float: left;
-    flex-direction: column;
-  }
-
-  .column li{
-    background-color: orange;
-  }
-
-  .column-reverse{
-    float: right;
-    flex-direction: column-reverse;
-  }
-
-  .column-reverse li {
-    background-color: aqua;
-  }
-
-  /*  flex wrap - permite a quebra de linha dos elementos que não caiba no container  */
-
-  .flex-container-wrap{
-      display: flex;
-      height: 150px;
-      border:  2px solid black;
-      max-width: 300px;
-      
-  }
-  .item{
-      font-size: 24px;
-      height: 50%;
-      text-align: center;
-      width: 100px;
-      line-height: 50px;
-      min-width: 100px;
-  }
-/* Cria a Quebra de Linha */
-  .wrap{
-    flex-wrap: wrap;
-  }
-
-/* Impede a Quebra de Linha */
-  .nowrap{
-      flex-wrap: nowrap;
-  }
-
-  .wrap-reverse{
-    flex-wrap: wrap-reverse;
-  }
-
-  .blue{
-      background-color: aqua;
-  }
-
-  .green{
-      background-color: green;
-  }
-  
-  .red{
-      background-color: brown;
-  }
-
-
-
-
+}
