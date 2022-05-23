@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justify-content</title>
+    <title>aling-content</title>
 
     <style>
         .container{
-            max-width: 400px;
+            max-width: 450px;
             border: 1px solid black;
             margin: 0%;
             display: flex;
@@ -18,42 +18,66 @@
             margin: 5px;
             text-align: center;
             color: aliceblue;
+            color: white;
+          
+        }
+        .center{
+            align-items: center;
+        }
+        .flex{
+            flex: 1;
+        }
+        .stretch{
+            align-items: stretch;
         }
 
+        .start{
+            align-items: flex-start;
+        }
+
+        .end{
+            align-items: flex-end;
+        }
     </style>
 </head>
 <body>
         <p>
-            flex-start
+            aling-content: center;
         </p>
-        <section class="container flex-start">
-            <div class="item"> 1 </div>
-            <div class="item"> 1 e 2</div>
-            <div class="item"> outro item</div>
-            <div class="item"> 3 </div>
-            <div class="item"> 4 </div>
+        <section class="container center flex">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item"> Item 3 </div>
+        </section>
+        <p>
+            aling-content: stretch;
+        </p>
+        <section class="container stretch flex">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item"> Item 3 </div>
         </section>
 
         <p>
-            flex-end
+            aling-content: flex-start;
         </p>
-        <section class="container flex-end">
-            <div class="item"> 1 </div>
-            <div class="item"> 1 e 2</div>
-            <div class="item"> outro item</div>
-            <div class="item"> 3 </div>
-            <div class="item"> 4 </div>
+        <section class="container start flex">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item"> Item 3 </div>
         </section>
-
-        flex-center
-    </p>
-    <section class="container flex-center">
-        <div class="item"> 1 </div>
-        <div class="item"> 1 e 2</div>
-        <div class="item"> outro item</div>
-        <div class="item"> 3 </div>
-        <div class="item"> 4 </div>
-    </section>
+        <p>
+            aling-content: flex-end;
+        </p>
+        <section class="container end flex">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item"> Item 3 </div>
+        </section>
 
 </body>
 </html>
