@@ -42,6 +42,18 @@
         .baseline{
             align-items: baseline;
         }
+        .column{
+            flex-direction: column;
+        }
+
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+        .central .item{
+            flex: 0;
+            padding: 20px;
+        }
 
     </style>
 </head>
@@ -92,5 +104,64 @@
             <div class="item">  Ut vulputate, justo et auctor fringilla</div>
         </section>
 
+        <h1>Column</h1>
+
+        <p>
+            aling-content: baseline;
+            flex-direction: column;
+        </p>
+        <section class="container column flex baseline">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+        </section>
+        <p>
+            aling-content: center;
+            flex-direction: column;
+        </p>
+        <section class="container column flex center">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+        </section>
+    
+        <p>
+            aling-content: end;
+            flex-direction: column;
+        </p>
+        <section class="container column flex end">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+        </section>
+
+        <p>
+            aling-content: start;
+            flex-direction: column;
+        </p>
+        <section class="container column flex start">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+        </section>
+
+        <p>
+            aling-content: stretch;
+            flex-direction: column;
+        </p>
+        <section class="container column flex stretch">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Curabitur sodales luctus pulvinar. Cras finibus sem sapien, eu feugiat velit iaculis sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item">  Ut vulputate, justo et auctor fringilla</div>
+        </section>
+
+        <h2>
+            CENTRAL A TELA
+        </h2>
+        <section class="container central center">
+
+            <div class="item"> sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+
+        </section>
 </body>
 </html>
