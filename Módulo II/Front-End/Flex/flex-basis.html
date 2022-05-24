@@ -8,11 +8,10 @@
 
     <style>
         .container{
-            max-width: 300px;
+            max-width: 500px;
             border: 2px solid black;
             margin: 0%;
             display: flex;
-            flex-wrap: wrap;
             margin-bottom: 20px;
             justify-content: center;
 
@@ -35,59 +34,50 @@
         .fg-2{
             flex-grow: 2;
         }
-        .fg-3{
-            flex-grow: 3;
+
+        .bauto{
+            flex-basis: auto;
+        }
+        .b-0{
+            flex-basis: 0;
+        }
+
+        .w100{
+            flex-basis: 100px;
         }
 
     </style>
 </head>
 <body>
         <p>
-            flex-grow: 0;
+            flex-grow: 1;
+            flex-basis: auto;
         </p>
         <section class="container">
-            <div class="item fg-0"> A </div>
-            <div class="item fg-0"> B </div>
-            <div class="item fg-0"> C</div>
-            <div class="item fg-0"> D </div>
+            <div class="item fg-1 bauto"> A </div>
+            <div class="item fg-1 bauto"> BBBB </div>
+            <div class="item fg-1 bauto"> C</div>
+            <div class="item fg-2 bauto"> DEF </div>
         </section>
         <p>
-            flex-grow: 1;
+            flex-grow: 0;
+            flex-basis: 0;
         </p>
         <div class="container">
-            <div class="item fg-1"> A </div>
-            <div class="item fg-1"> B </div>
-            <div class="item fg-1"> C</div>
-            <div class="item fg-1"> D </div>
+            <div class="item fg-0 b-0"> Aaaaaaa </div>
+            <div class="item fg-0 b-0"> BBBB </div>
+            <div class="item fg-0 b-0"> C</div>
+            <div class="item fg-0 b-0"> DEF </div>
+        </div>
+        flex-grow: x ;
+        flex-basis: 100;
+        <div class="container">
+            <div class="item fg-2 w100"> Aaaaaaa </div>
+            <div class="item fg-1 w100"> BBBB </div>
+            <div class="item fg-3 w100"> C</div>
+            <div class="item fg-1 w100"> DEF </div>
         </div>
 
-        <p>
-            flex-grow: 2;
-        </p>
-        <section class="container">
-            <div class="item fg-2"> A </div>
-            <div class="item fg-1"> B </div>
-            <div class="item fg-1"> C</div>
-            <div class="item fg-0"> D </div>
-        </section>
-        <p>
-            flex-grow: 3;
-        </p>
-        <section class="container">
-            <div class="item fg-3"> A </div>
-            <div class="item fg-2"> B </div>
-            <div class="item fg-1"> C</div>
-            <div class="item fg-0"> D </div>
-        </section>
-
-        <p>
-            flex-grow: 1;
-        </p>
-        <section class="container">
-            <div class="item fg-0"> A </div>
-            <div class="item fg-3"> Bbbbbbbbbbbb </div>
-            <div class="item fg-2"> C</div>
-            <div class="item fg-1"> D </div>
-        </section>
+ 
 </body>
 </html>
