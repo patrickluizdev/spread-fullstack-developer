@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aling-content</title>
+
+    <style>
+        .container{
+            max-width: 300px;
+            height: 400px;
+            border: 1px solid black;
+            margin: 0%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item{
+            background-color: blue;
+            margin: 5px;
+            text-align: center;
+            color: aliceblue;  
+            flex: 1;
+        }
+        .center{
+            align-content: center;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+
+        .start{
+            align-content: flex-start;
+        }
+
+        .end{
+            align-content: flex-end;
+        }
+
+        .baseline{
+            align-content: baseline;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+        <h2>
+            PARTE 2
+        </h2>
+        <p>
+            aling-content: stretch;
+        </p>
+        <div class="container ">
+            <div class="item "> sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item "> Item 1 </div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+        </div>
+       
+        <p>
+            aling-content: start;
+        </p>
+        <div class="container start ">
+            <div class="item "> sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item "> Item 1 </div>
+            <div class="item "> ,  sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+        </div>
+
+        <p>
+            aling-content: center;
+        </p>
+        <div class="container center">
+            <div class="item "> sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item "> Item 1 </div>
+            <div class="item "> rhoncus vehicula ut vel ante. </div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+        </div>
+        <p>
+            aling-content: end;
+        </p>
+        <div class="container end">
+            <div class="item "> sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item "> Item 1 </div>
+            <div class="item "> sce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+        </div>
+
+ 
+        
+        <p>
+            aling-content: baseline;
+        </p>
+        <div class="container baseline">
+            <div class="item "> sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item "> Item 1 </div>
+            <div class="item "> Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+        </div>
+        <p>
+            aling-content: column;
+        </p>
+        <div class="container space-around">
+            <div class="item "> sit amet. Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item "> Item 1 </div>
+            <div class="item ">  Fusce nec dui accumsan massa rhoncus vehicula ut vel ante. </div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+            <div class="item ">  Ut vulputate, justo et auctor fringilla</div>
+        </div>
+
+</body>
+</html>
