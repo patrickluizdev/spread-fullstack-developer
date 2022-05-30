@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aling-shrink</title>
+
+    <style>
+        .container{
+            max-width: 350px;
+        
+            border: 1px solid black;
+            margin: 0%;
+            display: flex;
+
+        }
+        .item{
+            background-color: blue;
+            margin: 5px;
+            text-align: center;
+            color: aliceblue;  
+            font-size: 24px;  
+            flex: 1;
+        }
+        .brown{
+            background-color: brown;
+        }
+        .center{
+            align-items: center;
+        }
+        .stretch{
+            align-items: stretch;
+        }
+
+        .start{
+            align-items: flex-start;
+        }
+
+        .end{
+            align-items: flex-end;
+        }
+
+        .baseline{
+            align-items: baseline;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .fg-0{
+            flex-grow: 0;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+        .fg-2{
+            flex-grow: 2;
+        }
+
+        .bauto{
+            flex-basis: auto;
+        }
+        .b-0{
+            flex-basis: 0;
+        }
+
+        .w100{
+            flex-basis: 100px;
+        }
+
+        .s-1{
+            flex-shrink: 1;
+        }
+        .s-0{
+            flex-shrink: 0;
+            flex-basis: 100px;
+         }
+
+        .s-0{
+            flex-shrink: 2;
+            flex-basis: 100px;
+         }
+        .s-0{
+            flex-shrink: 3;
+            flex-basis: 100px;
+         }
+
+    </style>
+</head>
+<body>
+        <p>
+            flex-shrink: 1;
+
+        </p>
+        <section class="container">
+            <div class="item fg-1 s-1"> A </div>
+            <div class="item fg-1 s-1">  TheBeatles  </div>
+            <div class="item fg-1 s-1"> C </div>
+            <div class="item fg-1 s-1"> D </div>
+            
+        </section>
+        <section class="container">
+            <div class="item fg-1 s-1"> A </div>
+            <div class="item fg-1 s-1"> B </div>
+            <div class="item fg-1 s-1"> C </div>
+            <div class="item fg-1 s-1"> D </div>
+            <div class="item fg-1 s-1"> E </div>
+        </section>
+        <p>
+            flex-shrink: 0; basis: 100px
+
+        </p>
+        <section class="container">
+            <div class="item fg-1 s-0"> A </div>
+            <div class="item fg-1 s-0"> The Beatles </div>
+            <div class="item fg-1 s-0"> C </div>
+            <div class="item fg-1 s-0"> D </div>
+        </section>
+
+        <p>
+            flex-shrink: 2; basis: 100px
+
+        </p>
+        <section class="container">
+            <div class="item fg-1 s-0"> A </div>
+            <div class="item fg-1 s-1"> The Beatles </div>
+            <div class="item fg-1 s-2"> C </div>
+            <div class="item fg-1 s-2"> D </div>
+        </section>
+        <p>
+            flex-shrink: 3; basis: 100px
+
+        </p>
+        <section class="container">
+            <div class="item fg-1 s-0"> A </div>
+            <div class="item fg-1 s-1"> The Beatles </div>
+            <div class="item fg-1 s-2"> C </div>
+            <div class="item fg-1 s-3"> D </div>
+        </section>
+
+</body>
+</html>
