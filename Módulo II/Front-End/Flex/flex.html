@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            margin: 0%;
+            display: flex;
+
+        }
+        .item{
+            background-color: blue;
+            margin: 5px;
+            text-align: center;
+            color: aliceblue;  
+            font-size: 24px;  
+            flex: 1;
+        }
+        .brown{
+            background-color: brown;
+        }
+        .center{
+            align-items: center;
+        }
+        .stretch{
+            align-items: stretch;
+        }
+
+        .start{
+            align-items: flex-start;
+        }
+
+        .end{
+            align-items: flex-end;
+        }
+
+        .baseline{
+            align-items: baseline;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+        .fg-0{
+            flex-grow: 0;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+        .fg-2{
+            flex-grow: 2;
+        }
+
+        .bauto{
+            flex-basis: auto;
+        }
+        .b-0{
+            flex-basis: 0;
+        }
+
+        .w100{
+            flex-basis: 100px;
+        }
+
+        .s-1{
+            flex-shrink: 1;
+        }
+
+        .flex-1{
+            flex: 1;
+        }
+
+        .flex-2{
+            flex: 2;
+        }
+
+        .flex-0{
+            flex: 0;
+        }
+
+    </style>
+</head>
+<body>
+        <p>
+            flex: 1, 1, 0 , 1, 2 
+        </p>
+        <section class="container">
+            <div class="item flex-1"> A </div>
+            <div class="item flex-1"> BBBBB </div>
+            <div class="item flex-0"> C </div>
+            <div class="item flex-1"> D </div>
+            <div class="item flex-2"> E </div>
+        </section>
+
+        <p>
+            flex: 2, 2, 0, 1, 1;
+        </p>
+        <section class="container">
+            <div class="item flex-2"> AAAA </div>
+            <div class="item flex-2"> B </div>
+            <div class="item flex-0"> CCC </div>
+            <div class="item flex-1"> D </div>
+            <div class="item flex-1"> E </div>
+        </section>
+
+
+
+</body>
+</html>
