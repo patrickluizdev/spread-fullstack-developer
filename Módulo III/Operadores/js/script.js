@@ -1,22 +1,14 @@
-// Introdução ao Javascript //
 console.log("Hello, World");
-// DOM //
 
-var currentNumberWrapper = document.getElementById('currentNumber');
+var numberOne = document.getElementById('numberOne');
+var numberTwo = document.getElementById('numberTwo');
 
-var currentNumber = 0;
 
-function increment() {
-    currentNumber = currentNumber + 1;
-    currentNumberWrapper.innerHTML = currentNumber;
+function init() {
+    var testeOne = numberOne == numberTwo ? 'Iguais' : 'Diferentes';
+    testeLogico.innerHTML = testeOne;
+
+
 }
 
-function decrement() {
-    currentNumber = currentNumber - 1;
-    currentNumberWrapper.innerHTML = currentNumber;
-}
-
-function reset() {
-    currentNumber = 0;
-    currentNumberWrapper.innerHTML = currentNumber;
-}
+//var currentNumberWrapper = document.getElementById('currentNumber');
