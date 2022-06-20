@@ -1,6 +1,6 @@
 # Módulo II
 
-## Neste Módualo foram abordados assuntos sobre Redes e desenvolvimento Front-End e dois projetos de alinhamento de especitativas foram desenvolvidos
+## Neste Módulo foram abordados assuntos sobre Redes e desenvolvimento Front-End e dois projetos de alinhamento de especitativas foram desenvolvidos
 
 ## _ScreenShot_
 ###  LINK DO PROJETO:
