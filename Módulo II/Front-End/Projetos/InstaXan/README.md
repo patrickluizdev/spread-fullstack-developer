@@ -10,6 +10,7 @@
 ![](https://raw.githubusercontent.com/patrickluizdev/instaXan/main/img/icone.ico)
 ![](https://raw.githubusercontent.com/patrickluizdev/instaXan/main/img/ico/White.ico)
 ![](https://raw.githubusercontent.com/patrickluizdev/instaXan/main/img/ico/blackbackgroundwhite.ico)
+![](https://raw.githubusercontent.com/patrickluizdev/spread-fullstack-developer/main/M%C3%B3dulo%20II/Front-End/Projetos/InstaXan/img/ico/Ball%20220.ico)
 
 ## _ScreenShots_
 ![](https://raw.githubusercontent.com/patrickluizdev/instaXan/main/ref/Screen.jpg)
