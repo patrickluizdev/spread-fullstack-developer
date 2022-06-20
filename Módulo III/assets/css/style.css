@@ -1,0 +1,21 @@
+* {
+    background-color: black;
+    color: #FFF;
+}
+
+.btn {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
