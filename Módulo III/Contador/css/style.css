@@ -22,7 +22,7 @@ button:active {
     color: black;
 }
 
-div {
+.contador {
     border: 2px solid #FFF;
     min-height: 25px;
     min-width: 150px;
@@ -30,6 +30,7 @@ div {
     justify-content: space-between;
     align-items: center;
     padding: 2px 2px;
+    margin-bottom: 30px;
 }
 
 span {
@@ -40,15 +41,30 @@ span {
     background-color: #fff;
     color: rgb(0, 0, 0);
     text-align: center;
+    width: 100px;
     border-radius: 30px;
-    width: 220px;
-    display: block;
-    height: 50px;
-    line-height: 50px;
+    height: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 10px;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.btn:hover {
+    transition: .5s;
+    background-color: black;
+    color: #FFF;
+}
+
+.btn:active {
+    background-color: #FFF;
+    color: black;
+    font-weight: 2000;
+}
+
+div {
+    max-width: 80%;
+    text-align: center;
 }
