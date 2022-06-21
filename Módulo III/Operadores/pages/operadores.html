@@ -13,19 +13,23 @@
 
     <div>
         <h3> Informe 2 numeros:</h3>
-        <div>
-            <input type="numberOne"> &
-            <input type="numberTwo">
+        <div class="direction">
+            <input type="number" value="0" id="numberOne">
+            <p>&</p>
+            <input type="number" value="0" id="numberTwo">
         </div>
-        <button onclick="init()">Verificar</button>
 
+        <button onclick="init()">Gerar</button>
+        <p id="altomatic">
+            <input type="checkbox" id="altomatic" onclick="set()"> altomatic
+        </p>
         <p> São Numeros são
-            <span id="number1"></span> e
-            <span id="number2"></span> são
+            <span id="spanOne"></span> e
+            <span id="spanTwo"></span> eles são
             <span id="testeLogico"></span> sua soma é:
-            <span id="soma"></span>, que é
-            <span id="testeQuantitativo10"></span> &
-            <span id="testeQuantitativo20"></span>
+            <span id="sum"></span>, que é
+            <span id="ten"></span> &
+            <span id="twenty"></span>
         </p>
 
 

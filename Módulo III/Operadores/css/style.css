@@ -67,7 +67,7 @@ span {
 div {
     max-width: 90%;
     text-align: center;
-    padding: 30px;
+    justify-content: space-around;
 }
 
 div img {
@@ -80,4 +80,26 @@ input {
     max-width: 35%;
     font-size: 26px;
     text-align: center;
+}
+
+.number {
+    min-height: 26px;
+    max-width: 50%;
+    min-width: 40%;
+    font-size: 26px;
+    text-align: center;
+    border: 2px solid #FFF;
+    display: flex;
+}
+
+.direction {
+    flex-direction: row;
+    display: flex;
+    padding: 30px;
+}
+
+#altomatic {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
