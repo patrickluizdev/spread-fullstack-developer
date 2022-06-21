@@ -1,6 +1,5 @@
 console.log("Hello, World");
-
-
+var value = parseFloat(2);
 
 function init() {
 
@@ -34,23 +33,21 @@ function init() {
 }
 
 function set() {
+    var status = value;
 
-    var status = document.getElementById('altomatic');
-
-    if (status.checked) {
+    if (status % 2 == 0) {
+        value = status + 1;
+        console.log("enable")
         console.log(status)
         document.getElementById('numberOne').setAttribute("onchange", "init()");
         document.getElementById('numberTwo').setAttribute("onchange", "init()");
     } else {
+        value = status + 1;
         console.log("disable")
+        console.log(status)
+        document.getElementById('numberOne').setAttribute("onchange", "");
+        document.getElementById('numberTwo').setAttribute("onchange", "");
     }
-
-    //var testeValue = value == on ?  
-    // 
-    //
-    // :
-    // console.log("OFF");
-
 }
 
 function reset() {
