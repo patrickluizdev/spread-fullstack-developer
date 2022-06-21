@@ -1,4 +1,5 @@
 console.log("Hello, World");
+//variavel global
 var value = parseFloat(2);
 
 function init() {
